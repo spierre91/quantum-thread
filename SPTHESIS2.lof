@@ -1,0 +1,29 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Diabatic potential energy curves for ET model with state 1 in red and state 2 in brown}}{24}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Average energy bead convergence}}{25}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The diabatic states defined in terms of solvent polarization. $V_{11}(s)$ is shown in red and $V_{22}(s)$ is shown in green.}}{33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The Proton double well potential coupled to solvent polarization. $V_p(R)+ V_{ps}(R;s1)$ is shown in red and $V_p(R)+ V_{ps}(R;s2)$ is shown in green.}}{34}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Average energy bead convergence}}{36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces State-specific solvent histogram for concerted two state coupled to proton double well model}}{36}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces State-specific proton histogram for concerted two state coupled to proton double well model}}{37}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces State-specific solvent histogram for concerted four state model}}{44}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Average energy bead convergence}}{45}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The quasi-diabatic state potentials as a function of solvent coordinate are shown for model I, with state $\textrm {DD}$ in red, $\textrm {DA}$ in green, $\textrm {AD}$ in blue, and $\textrm {AA}$ in pink.}}{46}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Population dynamics for model I (concerted), where population transfers directly from the reactant DD state (in red) to product AA state in pink. The intermediate AD (in blue) and DA (in green) states are not populated during the course of the reaction.}}{46}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces The quasi-diabatic state potentials as a function of solvent coordinate for model II with state $\textrm {DD}$ in red, $\textrm {DA}$ in green, $\textrm {AD}$ in blue, and $\textrm {AA}$ in pink.}}{47}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Population dynamics for model II (sequential PT-ET), where population first transfers from the reactant DD state (in red) to the DA state (in green) corresponding to proton transfer before the electron transfers leading to a rapid rise in the population of the product AA state in pink. }}{47}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The quasi-diabatic state potentials as a function of solvent coordinate are shown for model III, with state DD in red, DA in green, AD in blue, and AA in pink.}}{49}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Population dynamics for model III (sequential ET-PT), where population first transfers from the reactant DD state (in red) to the AD state (in blue) corresponding to electron transfer before the proton transfers leading to a rapid rise in the population of the product AA state in pink. The DA state (in green) shows some initial thermal population but is not populated during the course of the reaction. }}{50}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Population dynamics for model III (sequential ET-PT), with reactant state in red, PT state in green, ET in blue and product state in pink where trajectories are initialized to the electron transfer transition state.}}{52}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Figure reprinted by permission of author \nobreakspace {}\cite {MILLER1974}. Sketch of collinear potential energy surface for$ \textrm {A}+\textrm {BC} \to \textrm {AB}+ \textrm {C}$.}}{56}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Average energy bead convergence as a function of MC points }}{71}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The nonadiabatic instanton trajectory plotted as a function of imaginary time }}{72}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Average Semiclassical Population with the population of state 1 (shown in red) and state 2 (shown in green) over the course of the MC simulation}}{73}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Instantaneous instanton trajectories}}{73}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces A schematic of the two-state electron transfer system in the adiabatic basis. The yellow curve is the reactant well and the green curve is the product and both are functions of solvent polarization. The black dashed line corresponds the the reaction transition state $(R^{\ddagger })$}}{77}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

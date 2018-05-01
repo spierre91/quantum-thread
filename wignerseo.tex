@@ -1,0 +1,57 @@
+\section{Wigner Transform of SEO states}
+Starting with,
+\begin{equation}
+\int d \{x_{\alpha}\} \int d \{p_{\alpha}\} \int d \{\Delta x_{\alpha}\} \prod_{\alpha=1}^{P} \sum_{n,m=1}^{K} \langle  x_{\alpha}- \frac{\Delta x_{\alpha}}{2}| e^{-\beta_P V}|x_{\alpha}+ \frac{\Delta x_{\alpha}}{2}\rangle e^{ip_{\alpha}^T \Delta x_{\alpha}}
+\end{equation}
+
+Insert identity, 
+
+\begin{equation}
+\mathcal{I} = \sum_{n} |n\rangle \langle n|
+\end{equation}
+
+and, 
+
+\begin{equation}
+\mathcal{I} = \sum_{m} |m\rangle \langle m|
+\end{equation}
+we then have, 
+
+\begin{equation}
+\prod_{\alpha=1}^{P} \sum_{n,m=1}^{K} \langle  x_{\alpha}- \frac{\Delta x_{\alpha}}{2}|n\rangle \langle n|e^{-\beta_P V}|m\rangle \langle m|x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2}\rangle 
+\end{equation}
+
+and the diabatic matrix elements are,
+
+\begin{equation}
+\mathcal{M}_{nm} = \langle n|e^{\beta_P V}|m\rangle
+\end{equation}
+
+and the SEO wavefunctions are,
+
+\begin{equation}
+\langle  x |n\rangle = \frac{1}{(2\pi)^{1/2}} [x_n]e^{-\frac{1}{2} x^T\cdot x}
+\end{equation}
+
+whee we take $\hbar =1$. We can then write 
+\begin{equation}
+\langle  x_{\alpha}- \frac{\Delta x_{\alpha}}{2}|n\rangle=\frac{1}{(2\pi)^{N}}\bigg(x_{\alpha}- \frac{\Delta x_{\alpha}}{2}\bigg)_n e^{-\frac{1}{2} (x_{\alpha}- \frac{\Delta x_{\alpha}}{2})^T\cdot (x_{\alpha}- \frac{\Delta x_{\alpha}}{2})}
+\end{equation}
+
+\begin{equation}
+\langle m| x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2}|\rangle=\frac{1}{(2\pi)^{N}}\bigg(x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2}\bigg)_m e^{-\frac{1}{2} (x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2})^T\cdot (x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2})}
+\end{equation}
+
+we then get, 
+\begin{eqnarray}
+\langle  x_{\alpha}- \frac{\Delta x_{\alpha}}{2}| e^{-\beta_P V}|x_{\alpha}+ \frac{\Delta x_{\alpha}}{2}\rangle
+\\
+\nonumber
+&&=
+\frac{1}{(2\pi)^{N}}\bigg(x_{\alpha}- \frac{\Delta x_{\alpha}}{2}\bigg)_n e^{-\frac{1}{2} (x_{\alpha}- \frac{\Delta x_{\alpha}}{2})^T\cdot (x_{\alpha}- \frac{\Delta x_{\alpha}}{2})} \mathcal{M}_{nm} (R_{\alpha})
+\\
+\nonumber
+&&
+\times \frac{1}{(2\pi)^{N}}\bigg(x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2}\bigg)_m e^{-\frac{1}{2} (x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2})^T\cdot (x_{\alpha+1}+ \frac{\Delta x_{\alpha+1}}{2})}
+\end{eqnarray}
+

@@ -1,0 +1,58 @@
+\contentsline {section}{Biographical Sketch}{iii}
+\contentsline {section}{Dedication}{iv}
+\contentsline {section}{Acknowledgements}{v}
+\contentsline {section}{Table of Contents}{viii}
+\contentsline {section}{List of Tables}{x}
+\contentsline {section}{List of Figures}{xi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Imaginary-time Path Integrals}{5}
+\contentsline {section}{\numberline {2.1}RPMD Approximation}{10}
+\contentsline {subsubsection}{Features of RPMD}{13}
+\contentsline {subsubsection}{Justification and Applicability}{14}
+\contentsline {section}{\numberline {2.2}Review of MV-RPMD Formalism}{16}
+\contentsline {subsection}{\numberline {2.2.1}Nonadiabaticity in RPMD }{16}
+\contentsline {subsection}{\numberline {2.2.2}Mapping Variable Ring Polymer Molecular Dynamics }{17}
+\contentsline {section}{\numberline {2.3}Symmetrized Trotter}{19}
+\contentsline {subsection}{\numberline {2.3.1}Implementation Details}{22}
+\contentsline {subsection}{\numberline {2.3.2}Equilibrium Simulation Result: Model ET}{23}
+\contentsline {subsection}{\numberline {2.3.3}MV-RPMD Trajectories and Correlation Functions}{25}
+\contentsline {section}{\numberline {2.4}Summary}{27}
+\contentsline {chapter}{\numberline {3}Modeling PCET}{28}
+\contentsline {section}{\numberline {3.1}Model Systems}{29}
+\contentsline {subsection}{\numberline {3.1.1}Capped Coulomb Potentials Coupled to Proton Double Well}{29}
+\contentsline {subsection}{\numberline {3.1.2}Two electronic states coupled to Proton Double Well}{32}
+\contentsline {section}{\numberline {3.2}Concerted PCET}{32}
+\contentsline {subsection}{\numberline {3.2.1}Equilibrium: Two State model}{35}
+\contentsline {section}{\numberline {3.3}Summary}{38}
+\contentsline {chapter}{\numberline {4}Simulating PCET with MV-RPMD}{39}
+\contentsline {section}{\numberline {4.1}Diabatization: Four State electron-proton representation}{39}
+\contentsline {section}{\numberline {4.2}PCET Model Systems}{40}
+\contentsline {section}{\numberline {4.3}State Population Dynamics}{41}
+\contentsline {subsection}{\numberline {4.3.1}Equilibrium: Four State model}{44}
+\contentsline {subsection}{\numberline {4.3.2}Dynamics: Four State model}{44}
+\contentsline {section}{\numberline {4.4}Sequential PT-ET }{47}
+\contentsline {subsection}{\numberline {4.4.1}Dynamics: Four State model}{48}
+\contentsline {section}{\numberline {4.5}Sequential ET-PT }{49}
+\contentsline {subsection}{\numberline {4.5.1}Dynamics: Four State model}{49}
+\contentsline {section}{\numberline {4.6}Independent Dividing Surface: Sequential ET-PT }{51}
+\contentsline {subsection}{\numberline {4.6.1}Dynamics: Four State model}{51}
+\contentsline {section}{\numberline {4.7}Summary}{51}
+\contentsline {chapter}{\numberline {5}MV-RPMD Rate Theory}{54}
+\contentsline {section}{\numberline {5.1}Semiclassical Instanton Theory }{54}
+\contentsline {section}{\numberline {5.2}Miller-Schwartz-Tromp Flux-side TCF}{55}
+\contentsline {section}{\numberline {5.3}RPMD Rate Theory}{61}
+\contentsline {section}{\numberline {5.4}ImF and RPMD}{65}
+\contentsline {section}{\numberline {5.5}Finding the MV-RPMD Instanton}{68}
+\contentsline {section}{\numberline {5.6}Averaging Algorithm}{70}
+\contentsline {section}{\numberline {5.7}Equilibrium Simulation Results}{70}
+\contentsline {subsection}{\numberline {5.7.1}Summary}{74}
+\contentsline {section}{\numberline {5.8}MF-RPMD Rate Theory}{74}
+\contentsline {subsection}{\numberline {5.8.1}MV-RPMD Flux-side TCF: Solvent Reaction coordinate}{76}
+\contentsline {section}{\numberline {5.9}MV-RPMD Flux-side TCF: Population Reaction coordinate}{78}
+\contentsline {section}{\numberline {5.10}MV-RPMD Flux-side TCF: Wigner Transform of Flux Operator}{80}
+\contentsline {subsection}{\numberline {5.10.1}Summary}{85}
+\contentsline {chapter}{\numberline {6}Conclusions }{87}
+\contentsline {chapter}{\numberline {A}Chapter 1 of appendix}{90}
+\contentsline {section}{\numberline {A.1}Derivation of Semiclassical Population estimator}{90}
+\contentsline {section}{\numberline {A.2}Parameters for Quasi-Diabatic Potential Surfaces}{92}
+\contentsline {chapter}{Bibliography}{95}

@@ -1,0 +1,400 @@
+\begin{thebibliography}{10}
+
+\bibitem{AFFLECK1981}
+Ian Affleck.
+\newblock Quantum-statitical metastability.
+\newblock {\em Phys. Rev. Lett.}, 46(6):388, 1981.
+
+\bibitem{alt13b}
+Stuart~C. Althorpe and Timothy J.~H. Hele.
+\newblock Derivation of a true $(t\to 0_+)$ quantum transition-state theory. i.
+  uniqueness and equivalence to ring-polymer molecular dynamics
+  transition-state-theory.
+\newblock {\em J. Chem. Phys.}, 138:084108, 2013.
+
+\bibitem{alt13a}
+Stuart~C. Althorpe and Timothy J.~H. Hele.
+\newblock Derivation of a true $(t\to 0_+)$ quantum transition-state theory.
+  ii. recovery of the exact quantum rate in the absence of recrossing.
+\newblock {\em J. Chem. Phys.}, 139(8):084115, 2013.
+
+\bibitem{NA2013}
+Nandini Ananth.
+\newblock Mapping variable ring polymer molecular dynamics: A path-integral
+  based method for nonadiabatic processes.
+\newblock {\em J. Chem. Phys.}, 139(12):124102, 2013.
+
+\bibitem{NA2012}
+Nandini Ananth and Thomas~F. Miller~III.
+\newblock Flux-correlation approach to characterizing reaction pathways in
+  quantum systems: a study of condensed-phase proton-coupled electron transfer.
+\newblock {\em Mol. Phys.}, 110(9-10):1009--1015, 2012.
+
+\bibitem{Ceperley2000}
+Militzer B. and D.~M. Ceperley.
+\newblock Path integral monte carlo calculation of the deuterium hugoniot.
+\newblock {\em Phys. Rev. Lett.}, 85(9):1890, 2000.
+
+\bibitem{IMFBOOK}
+V.~A. Benderkii, Dmitrii~E. Makarov, and C.A. Wight.
+\newblock {\em Advance in Chemical Physics, Volume LXXXVIII}.
+\newblock John Wiley and Sons, 1994.
+
+\bibitem{TFM2011}
+Nicholas Boekelheide, Romelia Salom´on-Ferrer, and Thomas~F. Miller, III.
+\newblock Dynamics and dissipation in enzyme catalysis.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A}, 108:16159--16163, 2011.
+
+\bibitem{MANO2006}
+Bastiaan~J. Braams and David~E. Manolopoulos.
+\newblock On the short-time limit of ring polymer molecular dynamics.
+\newblock {\em J. Chem. Phys.}, 125(124105), 2006.
+
+\bibitem{ACAL1983}
+A.O Caldeira and A.J Leggett.
+\newblock Quantum tunnelling in a dissipative system.
+\newblock {\em Ann. Phys.}, 149(2):374 -- 456, 1983.
+
+\bibitem{CALLAN1977}
+Curtis~G. Callan, Jr. and Sidney Coleman.
+\newblock Fate of the false vacuum. ii. first quantum corrections*.
+\newblock {\em Phys. Rev. D}, 16(6):1762, 1977.
+
+\bibitem{CAO1995}
+Jianshu Cao, Camilla Minichino, and Gregory~A. Voth.
+\newblock The computation of electron transfer rates: The nonadiabatic
+  instanton solution.
+\newblock {\em J. Chem. Phys.}, 103(1391), 1995.
+
+\bibitem{DCPW1981}
+David Chandler and Peter~G. Wolynes.
+\newblock Exploiting the isomorphism between quantum theory and classical
+  statistical mechanics of polyatomic fluids.
+\newblock {\em J. Chem. Phys.}, 74:4078--4095, 1981.
+
+\bibitem{CHANDLER1981}
+David Chandler and Peter~G. Wolynes.
+\newblock Exploiting the isomorphism between quantum theory and classical
+  statistical mechanics of polyatomic fluids.
+\newblock {\em J. Chem. Phys.}, 74:4078, 1981.
+
+\bibitem{HUO2017}
+Sutirtha~N. Chowdhury and Pengfei Huo.
+\newblock Coherent state mapping ring polymer molecular dynamics for
+  non-adiabatic quantum propagations.
+\newblock {\em J. Chem. Phys.}, 147(214109), 2017.
+
+\bibitem{MANO2008}
+Rosana Collepardo-Guevara, Ian~R. Craig, and David~E. Manolopoulos.
+\newblock Proton transfer in a polar solvent from ring polymer reaction rate
+  theory.
+\newblock {\em J. Chem. Phys.}, 128:144502, 2008.
+
+\bibitem{MANO2009}
+Rosana Collepardo-Guevara, Yury~V. Suleimanov, and David~E. Manolopoulos.
+\newblock Bimolecular reaction rates from ring polymer molecular dynamics.
+\newblock {\em J. Phys. Chem.}, 130(174713), 2009.
+
+\bibitem{MANO2005}
+Ian~R. Craig and David~E. Manolopoulos.
+\newblock Chemical reaction rates from ring polymer molecular dynamics.
+\newblock {\em J. Chem. Phys.}, 122:084106, 2004.
+
+\bibitem{ICDM2004}
+Ian~R. Craig and David~E. Manolopoulos.
+\newblock Quantum statistics and classical mechanics: Real time correlation
+  functions from ring polymer molecular dynamics.
+\newblock {\em J. Chem. Phys.}, 121(8):3368--3373, 2004.
+
+\bibitem{ICDM2005}
+Ian~R. Craig and David~E. Manolopoulos.
+\newblock A refined ring polymer molecular dynamics theory of chemical reaction
+  rates.
+\newblock {\em J. Chem. Phys.}, 123(3):034102, 2005.
+
+\bibitem{cukier1998}
+R.~I. Cukier and D.~G. Nocera.
+\newblock Proton-coupled electron transfer.
+\newblock {\em Ann. Rev. Phys. Chem.}, 49(1):337--369, 1998.
+
+\bibitem{NA2015}
+Jessica~R. Duke and Nandini Ananth.
+\newblock Simulating excited state dynamics in systems with multiple avoided
+  crossings using mapping variable ring polymer molecular dynamics.
+\newblock {\em J. Phys. Chem. Lett.}, 6(21):4219--4223, 2015.
+
+\bibitem{JD2016}
+Jessica~R. Duke and Nandini Ananth.
+\newblock Mean field ring polymer molecular dynamics for electronically
+  nonadiabatic reaction rates.
+\newblock {\em Faraday Discuss.}, 195, 2016.
+
+\bibitem{SHS1997}
+Jian-Yun Fang and Sharon Hammes-Schiffer.
+\newblock Proton-coupled electron transfer reactions in solution: Molecular
+  dynamics with quantum transitions for model systems.
+\newblock {\em J. Chem. Phys.}, 106(20):8442--8454, 1997.
+
+\bibitem{FEYN1965}
+Richard~P. Feynman and Albert~R. Hibbs.
+\newblock {\em Quantum Mechanics and Path Integrals}.
+\newblock McGraw-Hill, New York, 1965.
+
+\bibitem{VOTH2001}
+Eitan Geva and Qiang Shi.
+\newblock Quantum-mechanical reaction rate constants from centroid molecular
+  dynamics simulations.
+\newblock {\em J. Chem. Phys.}, 115:9209, 2001.
+
+\bibitem{hab13}
+S.~Habershon, D.~E. Manolopoulos, T.~E. Markland, and :T.~F. Miller~III.
+\newblock Ring-polymer molecular dynamics: quantum effects in chemical dynamics
+  from classical trajectories in an extended phase space.
+\newblock {\em Ann. Rev. Phys. Chem.}, 64:387--413, 2013.
+
+\bibitem{SHS2015}
+Sharon Hammes-Schiffer.
+\newblock Proton-coupled electron transfer: Moving together and charging
+  forward.
+\newblock {\em J. Am. Chem. Soc.}, 137(28):8860--8871, 2015.
+
+\bibitem{SHS2008}
+Sharon Hammes-Schiffer and Alexander~V Soudackov.
+\newblock Proton-coupled electron transfer in solution, proteins, and
+  electrochemistry.
+\newblock {\em J. Phys. Chem. B}, 112(45):14108--14123, 2008.
+
+\bibitem{shs2010-2}
+Sharon Hammes-Schiffer and Alexei~A Stuchebrukhov.
+\newblock Theory of coupled electron and proton transfer reactions.
+\newblock {\em Chem. Rev.}, 110(12):6939--6960, 2010.
+
+\bibitem{hel15a}
+T.~J.~H. Hele, M.~J. Willatt, A.~Muolo, and S.~C. Althorpe.
+\newblock Boltzmann-conserving classical dynamics in quantum time-correlation
+  functions: `matsubara dynamics'.
+\newblock {\em J. Chem. Phys.}, 142:134103, 2015.
+
+\bibitem{hel15b}
+T.~J.~H. Hele, M.~J. Willatt, A.~Muolo, and S.~C. Althorpe.
+\newblock Communication: Relation of centroid molecular dynamics and
+  ring-polymer molecular dynamics to exact quantum dynamics.
+\newblock {\em J. Chem. Phys.}, 142:191101, 2015.
+
+\bibitem{hel16}
+Timothy J.~H. Hele and Nandini Ananth.
+\newblock Deriving the exact nonadiabatic quantum propagator in the mapping
+  variable representation.
+\newblock {\em Faraday Discuss.}, 195:269--289, 2016.
+
+\bibitem{huynh2007}
+My~Hang~V Huynh and Thomas~J Meyer.
+\newblock Proton-coupled electron transfer.
+\newblock {\em Chem. Rev.}, 107(11):5004--5064, 2007.
+
+\bibitem{Markland2015}
+Aaron Kelly, Nora Brackbill, and Thomas~E. Markland.
+\newblock Accurate nonadiabatic quantum dynamics on the cheap: Making the most
+  of mean field theory with master equations.
+\newblock {\em J. Chem. Phys.}, 142:094110, 2015.
+
+\bibitem{Markland2016}
+Aaron Kelly, Andr{\'e}s Montoya-Castillo, Lu~Wang, and Thomas~E. Markland.
+\newblock Generalized quantum master equations in and out of equilibrium: when
+  can one win?
+\newblock {\em J. Chem. Phys.}, 144:184105, 2016.
+
+\bibitem{TFM2016-2}
+Joshua~S. Kretchmer and Thomas~F. Miller, III.
+\newblock Kinetically-constrained ringpolymer molecular dynamics for
+  non-adiabatic chemistries involving solvent and donor-acceptor dynamical
+  effects.
+\newblock {\em Farad. Discuss.,}, 195:191--214, 2016.
+
+\bibitem{TFM2013}
+Joshua~S. Kretchmer and Thomas~F. Miller~III.
+\newblock Direct simulation of proton-coupled electron transfer across multiple
+  regimes.
+\newblock {\em J. Chem. Phys.}, 138(13), 2013.
+
+\bibitem{TFM2016}
+Joshua~S. Kretchmer and Thomas~F. Miller~III.
+\newblock Tipping the balance between concerted versus sequential
+  proton-coupled electron transfer.
+\newblock {\em Inorg. Chem.}, 55(3):1022--1031, 2016.
+
+\bibitem{RK2016}
+Kenion~Rachel L. and Nandini Ananth.
+\newblock Direct simulation of electron transfer in the cobalt
+  hexammine(ii/iii) self-exchange reaction.
+\newblock {\em Phys.Chem.Chem.Phys.}, 18(26117), 2016.
+
+\bibitem{MAKRI1994}
+Dmitrii~E. Makarov and Nancy Makri.
+\newblock Path integrals for dissipative systems by tensor multiplication.
+  condensed phase quantum dynamics for arbitrarily long time.
+\newblock {\em Chem. Phys. Lett.}, 221:482--491, 1994.
+
+\bibitem{MAKRI1995}
+Nancy Makri.
+\newblock Numerical path integral techniques for long time dynamics of quantum
+  dissipative systems.
+\newblock {\em J. Math. Phys.}, 35(5):2430, 1995.
+
+\bibitem{MAKRI1999}
+Nancy Makri.
+\newblock Time-dependent quantum methods for large systems.
+\newblock {\em Annu. Rev. Phys. Chem.}, 50:167--191, 1999.
+
+\bibitem{ARM2011}
+Artur~R Menzeleev, Nandini Ananth, and Thomas~F Miller~III.
+\newblock Direct simulation of electron transfer using ring polymer molecular
+  dynamics: Comparison with semiclassical instanton theory and exact quantum
+  methods.
+\newblock {\em J. Chem. Phys.}, 135(7):074106, 2011.
+
+\bibitem{NA2011}
+Artur~R. Menzeleev, Nandini Ananth, and Thomas~F. Miller~III.
+\newblock Direct simulation of electron transfer using ring polymer molecular
+  dynamics: Comparison with semiclassical instanton theory and exact quantum
+  methods.
+\newblock {\em J. Chem. Phys.}, 135(7), 2011.
+
+\bibitem{TFM2014}
+Artur~R. Menzeleev, Franziska Bell, and Thomas~F. Miller~III.
+\newblock Kinetically constrained ring-polymer molecular dynamics for
+  non-adiabatic chemical reactions.
+\newblock {\em J. Chem. Phys.}, 140(6), 2014.
+
+\bibitem{HMWM1979}
+Hans-Dieter Meyer and William~H. Miller.
+\newblock A classical analog for electronic degrees of freedom in nonadiabatic
+  collision processes.
+\newblock {\em J. Chem. Phys.}, 70(7):3214--3223, 1979.
+
+\bibitem{MILLER1974}
+William~H. Miller.
+\newblock Quantum mechanical transition state theory and a new semiclassical
+  model for reaction rate constants.
+\newblock {\em J. Chem. Phys.}, 61:1823, 1974.
+
+\bibitem{TROMP1983}
+William~H. Miller, Steven~D. Schwartz, and John~W. Tromp.
+\newblock Quantum mechanical rate constants for bimolecular reactions.
+\newblock {\em J. Chem. Phys.}, 79:4889, 1983.
+
+\bibitem{TFM2005}
+Thomas~F. Miller~III and David~E. Manolopoulos.
+\newblock Quantum diffusion in liquid para-hydrogen from ring-polymer molecular
+  dynamics.
+\newblock {\em J. Chem. Phys.}, 122(184503), 2005.
+
+\bibitem{Okazaki2000}
+Shinichi Miura and Susumu Okazaki.
+\newblock Path integral molecular dynamics for bose--einstein and fermi--dirac
+  statistics.
+\newblock {\em J. Chem. Phys.}, 112(23):Okazaki2000, 2000.
+
+\bibitem{nocera17}
+Daniel~G. Nocera.
+\newblock Solar fuels and solar chemicals industry.
+\newblock {\em Acc. Chem. Res.}, 50(3):616--619, 2017.
+
+\bibitem{Parrinello1984}
+M.~Parrinello and A.~Rahman.
+\newblock Study of an f center in molten kcl study of an f center in molten kcl
+  study of an f center in molten kcl study of an f cent in molten kcl.
+\newblock {\em J. Chem. Phys.}, 80:860, 1984.
+
+\bibitem{SP2017}
+Sadrach Pierre, Jessica~R. Duke, T.~J.~H. Hele, and Nandini Ananth.
+\newblock A mapping variable ring polymer molecular dynamics study of condensed
+  phase proton-coupled electron transfer.
+\newblock {\em J. Chem. Phys.}, 147(2017), 2017.
+
+\bibitem{SRINANTH18}
+Srinanth Ranya, Sadrach Pierre, and Nandini Ananth.
+\newblock Optimal dividing surfaces for nonadiabatic rate calculations using
+  the mapping variable coordinate space instanton.
+\newblock {\em Manuscript in preparation}, 2018.
+
+\bibitem{SCA2009}
+Jeremy~O. Richardson and Stuart~C. Althorpe.
+\newblock Ring-polymer molecular dynamics rate-theory in the deep-tunneling
+  regime: Connection with semiclassical instanton theory.
+\newblock {\em J. Chem. Phys.}, 131(214106), 2009.
+
+\bibitem{ric2017}
+Jeremy~O. Richardson, Philipp Meyer, Marc-Oliver Pleinert, and Michael Thoss.
+\newblock An analysis of nonadiabatic ring-polymer molecular dynamics and its
+  application to vibronic spectra.
+\newblock {\em Chem. Phys.}, 482:124--134, 2017.
+
+\bibitem{ric13a}
+Jeremy~O. Richardson and Michael Thoss.
+\newblock Communication: Nonadiabatic ring-polymer molecular dynamics.
+\newblock {\em J. Chem. Phys.}, 139(3):031102, 2013.
+
+\bibitem{LSCHIFF1968}
+L.~I. Schiff.
+\newblock {\em Quantum Mechanics}.
+\newblock McGraw-Hill, New York, 1968.
+
+\bibitem{HUO2017-2}
+Farnaz~A. Shakib and Pengfei Huo.
+\newblock Ring polymer surface hopping: Incorporating nuclear quantum effects
+  into nonadiabatic molecular dynamics simulations.
+\newblock {\em J. Chem. Phys.}, 8(13):3073--3080, 2017.
+
+\bibitem{shu12a}
+Philip Shushkov, Richard Li, and John~C. Tully.
+\newblock Ring polymer molecular dynamics with surface hopping.
+\newblock {\em The Journal of Chemical Physics}, 137(22):22A549, Dec 2012.
+
+\bibitem{GSMT1997}
+Gerhard Stock and Michael Thoss.
+\newblock Semiclassical description of nonadiabatic quantum dynamics.
+\newblock {\em Phys. Rev. Lett.}, 78:578--581, Jan 1997.
+
+\bibitem{MANO2011}
+Yury~V. Suleimanova, Rosana Collepardo-Guevara, and David~E. Manolopoulos.
+\newblock Bimolecular reaction rates from ring polymer molecular dynamics:
+  Application to $\textrm{H} + \textrm{CH}_4 \to \textrm{H}_2 + \textrm{CH}_3$.
+\newblock {\em J. Chem. Phys.}, 134(044131), 2011.
+
+\bibitem{MILLER1998-2}
+Xiong Sun, Haobin Wang, and William~H. Miller.
+\newblock Semiclassical theory of electronically nonadiabatic dynamics: Results
+  of a linearized approximation to the initial value representation.
+\newblock {\em J. Chem. Phys.}, 109:7064, 1998.
+
+\bibitem{MARKI1994}
+Maria Topaler and Nancy Makri.
+\newblock Quantum rates for a double well coupled to a dissipative bath:
+  Accurate path integral results and comparison with approximate theories.
+\newblock {\em J. Chem. Phys.}, 101:7500--7519, 1994.
+
+\bibitem{TUCKERMAN1998}
+M.~E. Tuckerman and A.~Hughes.
+\newblock {\em Classical and Quantum Dynamics in Condensed Phase Simulations}.
+\newblock World Scientific, Singapore, 1998.
+
+\bibitem{MILLER1998}
+Haobin Wang, Xiong Sun, and William~H. Miller.
+\newblock Semiclassical approximations for the calculation of thermal rate
+  constants for chemical reactions in complex molecular systems.
+\newblock {\em J. Chem. Phys.}, 108:9726, 1998.
+
+\bibitem{warren2010}
+Jeffrey~J Warren, Tristan~A Tronic, and James~M Mayer.
+\newblock Thermochemistry of proton-coupled electron transfer reagents and its
+  implications.
+\newblock {\em Chem. Rev.}, 110(12):6961--7001, 2010.
+
+\bibitem{wikstrom1989}
+M{\aa}rten Wikstr{\"o}m.
+\newblock Identification of the electron transfers in cytochrome oxidase that
+  are coupled to proton-pumping.
+\newblock {\em Nature}, 338(6218):776--778, 1989.
+
+\end{thebibliography}
