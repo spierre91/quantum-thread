@@ -1761,7 +1761,7 @@ k_{\textrm{inst}} Z= (2\pi\hbar^3)^{-1/2} \bigg|  \frac{d^2 \bar{S}}{d\beta^2}\b
 where $\beta = 1/kT$, $Z$ is the reactant partition function, and $\bar{S}$ is the classical action along the "instanton" trajectory. The trajectory is a period orbit in the inverted potential with a period $\beta\hbar$. Below the "cross-over" temperature $T_c =1/k\beta_c$,  with $\beta_c = 2\pi/\hbar \omega_b$ and $\omega_b$ is the barrier frequency, one or more periodic orbits can form. 
 
 
-The second, which is sometimes called the "ImF" method,  is obtained by modeling the rate of transmission through a barrier with the rate of decay of the thermal average of  shape resonances though the barrier. The method gives a rate expression with an exponent containing the action of the instanton, but a different prefactor. The rate expression is given by,
+The second, which is sometimes called the "ImF" method,  is obtained by modeling the rate of transmission through a barrier with the rate of decay of the thermal average of  shape resonances through the barrier. The method gives a rate expression with an exponent containing the action of the instanton, but a different prefactor. The rate expression is given by,
 
 \begin{equation}
 k Z_r \approx \frac{2}{\beta \hbar} \textrm{Im} R
@@ -1772,7 +1772,7 @@ where,
 R = \sum_k e^{-\beta (E_{{\textrm{r}} k} -i\gamma_k/2)}
 \end{equation} 
 
-Upon performing the analytic continuation of the Hamiltonian $\hat{H}$ into the complex plane, we obtain the discrete spectrum describe by the set of complex numbers $E_{{\textrm{r}} k} -i\gamma_k/2$. Deriving the instanton theory involves  a combination of steepest descent and analytic continuation applied to the exact expression for $Z_r$.
+Upon performing the analytic continuation of the Hamiltonian $\hat{H}$ into the complex plane, we obtain the discrete spectrum described by the set of complex numbers $E_{{\textrm{r}} k} -i\gamma_k/2$. Deriving the instanton theory involves  a combination of steepest descent and analytic continuation applied to the exact expression for $Z_r$.
 
 The first approach is typically preferred as it is more mathematical rigorous, but in the "ImF" approach the connection of instanton theory to RPMD becomes apparent. The following sections will give a brief review of both methods. 
 \section{Miller-Schwartz-Tromp Flux-side TCF}
@@ -1785,7 +1785,7 @@ We start our derivation of the flux-side rate expression by considering the coll
 \caption{Figure reprinted by permission of author ~\cite{MILLER1974}. Sketch of collinear potential energy surface for$ \textrm{A}+\textrm{BC} \to  \textrm{AB}+  \textrm{C}$.}
 \label{fig:fluxsurface}
 \end{figure}
-The rate can be expressed as the sum over Boltzmann average of initial vibrational states and translational energy~\cite{MILLER1974,TROMP1983}, 
+The rate can be expressed as the sum over the Boltzmann average of initial vibrational states and translational energy~\cite{MILLER1974,TROMP1983}, 
 
 \begin{equation}
 k_{a\to b} = (2\pi \mu kT)^{(-1/2)} Q_{BC}^{-1} \sum_{\eta_a,\eta_b} \int_0^{\infty} dE_1 e^{-\beta (E_1 + \epsilon_{\eta_a})} |S_{\eta_a, \eta_b} (E_1)|^2
@@ -1797,7 +1797,7 @@ where $\beta= 1/kT$, $\mu$ is the reduced mass for the initial arrangement "a", 
 Q_{BC} = \sum_{\eta_a} e^{-\beta \epsilon_{\eta_a}}
 \end{equation}
 
-where $\epsilon_{\eta_a}$ are the vibrational energy levels of BC. In order to recast Eq. (5.4) into a more convenient form, we can introduce the notion of flux through a surface ~\cite{LSCHIFF1968}. In Figure 5.1, $x$ and $y$ are mass weighted or skewed reaction coordinates that diagonalize the kinetic energy: $x= R(\mu/M)^{1/2}$, $y= r(m/M)^{1/2}$. $R$ and $r$ are the transitional and vibrational coordinates, respectively and $\mu$ and $m$ are the reduced masses [($m$=BC/(B+C), $\mu$= A(B+C)/(A+B+C)].  $M$ is an arbitrary mass, with a corresponding classical kinetic energy $\frac{1}{2} M (\dot{x}^2 + \dot{y}^2)^2$ and $s$ and $u$ in the figure are linear combinations of $x$ and $y$ which diagonalize the potential energy at the saddle point. $\textrm{S}_1$, $\textrm{S}_2$, and $\textrm{S}_3$ correspond to 1D cuts through the 2D surface which are define by lines. Consider the first surface, $\textrm{S}_1$, defined by $R_0 -R=0$, where $R_0$ is an asymptotically large value of the coordinate $R$. The flux through $\textrm{S}_1$ in terms of the wave function $\Psi(r,R)$ is, 
+where $\epsilon_{\eta_a}$ are the vibrational energy levels of BC. In order to recast Eq. (5.4) into a more convenient form, we can introduce the notion of flux through a surface ~\cite{LSCHIFF1968}. In Figure (5.1), $x$ and $y$ are mass weighted or skewed reaction coordinates that diagonalize the kinetic energy: $x= R(\mu/M)^{1/2}$, $y= r(m/M)^{1/2}$. $R$ and $r$ are the transitional and vibrational coordinates, respectively and $\mu$ and $m$ are the reduced masses [($m$=BC/(B+C), $\mu$= A(B+C)/(A+B+C)].  $M$ is an arbitrary mass, with a corresponding classical kinetic energy $\frac{1}{2} M (\dot{x}^2 + \dot{y}^2)^2$ and $s$ and $u$ in the figure are linear combinations of $x$ and $y$ which diagonalize the potential energy at the saddle point. $\textrm{S}_1$, $\textrm{S}_2$, and $\textrm{S}_3$ correspond to 1D cuts through the 2D surface which are defined by lines. Consider the first surface, $\textrm{S}_1$, defined by $R_0 -R=0$, where $R_0$ is an asymptotically large value of the coordinate $R$. The flux through $\textrm{S}_1$ in terms of the wave function $\Psi(r,R)$ is, 
 
 \begin{equation}
 -\textrm{Re} \int_{\infty}^{\infty} dr \Psi(r,R)^{*} \frac{\hbar}{i\mu}\frac{\partial}{\partial R} \Psi(r,R)| R=R_0.
@@ -1810,7 +1810,7 @@ Here, "Re" denotes "the real part of", and a positive flux is associated with de
 \Psi_{P_1, \eta_a}(r,R) \approx - \frac{\textrm{exp}(-ik_{\eta_a}R) }{(2\pi \hbar)^{1/2}} \phi_{\eta_a}(r) + \sum_{\eta_a^{'}}\frac{\textrm{exp}(-ik_{\eta_a^{'}}R) }{(2\pi \hbar)^{1/2}} \phi_{\eta_a^{'}}(r) \bigg(\frac{v_{\eta_a}}{v_{\eta_a}^{'}} \bigg) S_{\eta_a, \eta_a^{'}}(E_1)
 \end{equation}
 
-where $E_1=P_1^2/2\mu$ is the initial kinetic energy, $k_n =[2\mu(E-\epsilon_n)]^{1/2}/\hbar$ is the wave number which, and $v_n= \hbar k_n/\mu$ is the asymptotic velocity channel. This corresponds to an incident vibrational state $\eta_{a}$. The velocity channel is a normalization for the translational function, which also correspond to delta function normalization on the momentum scale. 
+where $E_1=P_1^2/2\mu$ is the initial kinetic energy, $k_n =[2\mu(E-\epsilon_n)]^{1/2}/\hbar$ is the wave number, and $v_n= \hbar k_n/\mu$ is the asymptotic velocity channel. This corresponds to an incident vibrational state $\eta_{a}$. The velocity channel is a normalization for the translational function, which also correspond to delta function normalization on the momentum scale. 
 We can then express the flux in terms of the scattering wave function,
 
 \begin{equation}
@@ -1851,7 +1851,7 @@ where ${\bf{q}} =(r,R)$, and the components of the velocity operator are $v_k = 
 F=\delta ( f({\bf{q}})) \frac{\partial f({\bf{q}})}{\partial {\bf{q}}} \cdot {\bf{v}}
 \end{equation}
 
-Now we can see that the scattering matrix can be expressed interns of the real part of the Flux operator in the basis of scattering states, 
+Now we can see that the scattering matrix can be expressed in terms of the real part of the Flux operator in the basis of scattering states, 
 \begin{equation}
 (2\pi\hbar)^{-1} \sum_{\eta_b}|S_{\eta_b, \eta_a}(E_1)|^2 = v_{\eta_a}^{-1} \textrm{Re} \langle \Psi_{P_1, \eta_a}|F| \Psi_{P_1, \eta_a} \rangle. 
 \end{equation}
@@ -1862,7 +1862,7 @@ We can then write the expression for the rate as,
 k_{a\to b} = Q_{a}^{-1}\sum_{\eta_a} \int_{0}^{\infty} dE_1 \textrm{exp}[-\beta(E_1 +\epsilon_{\eta_a})] v_{\eta_a}^{-1} \langle \Psi_{P_1, \eta_a}|F| \Psi_{P_1, \eta_a} \rangle
 \end{equation}
 
-where we take the real part of the right hand side of Eq. (5.16). We also should point of that the flux is independent of the choice of surface that divides reactant and product, since the flux through any closed surface is the same. Since 
+where we take the real part of the right hand side of Eq. (5.16). We also should point out that the flux is independent of the choice of any surface that divides reactants and products, since the flux through any closed surface is the same. Since 
 
 \begin{equation}
 e^{-\beta H} \Psi_{P_1, \eta_a} = \textrm{exp} [-\beta ( E_1+ \epsilon_{\eta_a})] \Psi_{P_1, \eta_a}
@@ -1893,7 +1893,7 @@ where $P_1 = -(2\mu E_1)^{1/2}$. We can rewrite the integral over all momenta, n
     \label{eq:hs}
 \end{equation}
 
-then Eq. can be written as 
+then Eq. (5.20) can be written as 
 \begin{equation}
 k_{a\to b} = Q_{a}^{-1}\sum_{\eta_a} \int_{-\infty}^{\infty} dP_1 \ \langle \Psi_{P_1, \eta_a}|F e^{-\beta H}\mathcal{P} | \Psi_{P_1, \eta_a} \rangle
 \end{equation}
@@ -1912,10 +1912,10 @@ k = \frac{1}{Q_a}\textrm{tr}[e^{-\beta \hat{H}} \hat{F} \mathcal{P}]
  \begin{equation}
  \hat{F}=\delta (s)\frac{p}{m}
  \end{equation}
-  where $s$ and $p$ are the reaction coordinate and momenta respectively
- the hamiltonian is, 
+  where $s$ and $p$ are the reaction coordinate and momenta respectively.
+ The hamiltonian is, 
  \begin{equation}
- H= \frac{p^2}{2m} + V(s)
+ H= \frac{p^2}{2m} + V(s).
  \end{equation}
 
 The projection operator,  $\mathcal{P}$, is defined in terms of the heaviside in the conjugate momenta,
@@ -1924,12 +1924,12 @@ The projection operator,  $\mathcal{P}$, is defined in terms of the heaviside in
 \end{equation}
 where the heaviside function projects onto all states that have positive momentum in the infinite future ($t\to +\infty$). The reaction coordinate direction is defined from  $s\to -\infty$ to  $s\to +\infty$. 
 
-Noting that the projection operator, $\mathcal{P}$, is defined in terms of the eigenstates of $\hat{H}$ it's clear that $[\hat{H}, \mathcal{P}]=0$. We can then rewrite Eq 5.1 in a more symmetrical form as, 
+Noting that the projection operator, $\mathcal{P}$, is defined in terms of the eigenstates of $\hat{H}$ it's clear that $[\hat{H}, \mathcal{P}]=0$. We can then rewrite Eq. (5.1) in a more symmetrical form as, 
 
 \begin{equation}
 k = \frac{1}{Z}\textrm{tr}[\hat{F}e^{-\beta \hat{H}/2}  \mathcal{P} e^{-\beta \hat{H}/2} ]
 \end{equation}
- and with $\mathcal{P}$ given by Eq 5.4 we can write,
+ and with $\mathcal{P}$ given by Eq. (5.4) we can write,
  
  \begin{equation}
 k = \lim_{t \to \infty}\frac{1}{Z}\textrm{tr}[\hat{F}e^{-\beta \hat{H}/2} e^{i \hat{H} t/\hbar}h(p)e^{-i \hat{H} t/\hbar} e^{-\beta \hat{H}/2} ]
@@ -1970,7 +1970,7 @@ In 2004 Craig and Manolopolous showed that RPMD can be used to calculate approxi
  
  Since both operators in $\tilde{C}_{ss}(t)$ are configurational, RPMD can be applied and the corresponding approximation to $\tilde{C}_{fs}(t)$ can be obtained upon differentiation $\tilde{C}_{ss}(t)$. 
  
-Still, there are a few issues to consider in the RPMD approximation to the Kubo-transformed flux-side correlation function. First, the operator $\hat{h}$ is a nonlinear functions of ${\hat{\bf{q}}}$. As mentioned earlier in the discussion on the features of RPMD, RPMD autocorrelation functions involving nonlinear operators having a leading error term $\mathcal{O}(t^4)$. This is particularly problematic  since we need to calculate the long-time limit of the flux-side correlation function in order to obtain a rate constant, and the method is expected to degrade with time ~\cite{MANO2006}. More worry, the Kubo-transformed flux-side correlation function has a divergent first derivative due to the integral over $\lambda$. 
+Still, there are a few issues to consider in the RPMD approximation to the Kubo-transformed flux-side correlation function. First, the operator $\hat{h}$ is a nonlinear functions of ${\hat{\bf{q}}}$. As mentioned earlier in the discussion on the features of RPMD, RPMD autocorrelation functions involving nonlinear operators having a leading error term $\mathcal{O}(t^4)$. This is particularly problematic  since we need to calculate the long-time limit of the flux-side correlation function in order to obtain a rate constant, and the method is expected to degrade with time ~\cite{MANO2006}. More worrying, the Kubo-transformed flux-side correlation function has a divergent first derivative due to the integral over $\lambda$. 
  This divergence can be avoided, in an exact calculation, by alternatively using the Miller, Schwartz, and Tromp ~\cite{TROMP1983} expression for the flux-side correlation, 
  \begin{equation}
 \tilde{C}_{fs}(t)= \textrm{tr}[ e^{-\beta\hat{H}/2} \hat{F}(0) e^{-\beta\hat{H}/2} e^{+i \hat{H}t/\hbar} \hat{h}e^{-i \hat{H}t/\hbar} ]
@@ -1983,7 +1983,7 @@ Consider an $d$-dimensional system described by the following Hamiltonian,
 \begin{equation}
 H({\bf{p}},{\bf{q}}) = \sum_{i=1}^{d} \frac{p_i^2}{2m_i} + V(q_1, \dots q_d)
 \end{equation}
-where we define $s$ is the reaction coordinate and the value of the reaction coordinate at the dividing sure that divided reactant and product is $s(q_1, \dots q_d)=0$ and $s>0$ corresponds to the products. The RPMD approximation to the Kubo-transformed side-side correlation function in Eq. (6.5)  for a multidimensional harmonic ring polymer  is~\cite{CHANDLER1981}, 
+where we define $s$ as the reaction coordinate and the value of the reaction coordinate at the dividing surface that divides reactant and product is $s(q_1, \dots q_d)=0$ and $s>0$ corresponds to the products. The RPMD approximation to the Kubo-transformed side-side correlation function in Eq. (6.5)  for a multidimensional harmonic ring polymer  is~\cite{CHANDLER1981}, 
 
 \begin{equation} 
 \tilde{C}_{ss}(t) = \frac{1}{(2\pi \hbar)^N} \int d{\bf{P}}_0  \int d{\bf{Q}}_0 e^{-\beta_n H_n({\bf{P}}_0,{\bf{Q}}_0)} h_n({\bf{Q}}_0)h_n({\bf{Q}}_t)
@@ -2054,7 +2054,7 @@ Further, the normal mode frequencies satisfy
 The solutions for the free RP corresponds to all normal modes being zero except for the centroid which is located at the barrier maximum $R^{\dagger}$.
  Above the cross-over temperature, $T_c$, the geometry at the barrier $R^{\dagger}$ is the saddle point on $U_{RP}(R)$, which is equivalent to the dynamics of the ring polymer in classical limit where the ring polymer collapses to a single point. Below $T_c$ , $U_{RP}(R)$ changes the geometry of $R_{\alpha}$ such that it is no longer a saddle point. Above the crossover temperature, $T_c$ the normal mode frequencies $\sqrt{\omega_k^2=\omega_b^2}$ are real except for the imaginary frequency, $i\omega_b$ corresponding to the centroid mode. Below $T_c$ the normal mode frequencies ($\omega_{\pm1}<\omega_b$), so the modes are no longer stable and the geometry $R_P= R^{\dagger}$ has three imaginary frequencies. The unstable modes, $Q_{\pm 1}$ describe the RP lowering its energy by "draping" over the barrier. 
  
- The physical interpretation of the saddle point below the critical temperature corresponds to a finite-difference approximation to Newton's second law, describing the classical dynamics of a particle on an inverted potential surface $-V(R)$. Each bead in the RP corresponds to equally space imaginary time-steps with a duration of $\beta \hbar$. It then follows that the saddle point is a finite difference approximation to the periodic instanton trajectory. The instanton rate is calculated by computing the normal modes and frequencies of the RP at the saddle point by diagonalizing the Hessian. The next step is to multiply the RP coordinates by complex scaling factors in order to transform the partition function, which is real and infinite, into the $R$ term in Eq. (5.2) which is finite and complex. Finally computing the integrals over the normal modes using steepest descent gives the RP form of the ImF instanton rate. This can be expressed as, 
+ The physical interpretation of the saddle point below the critical temperature corresponds to a finite-difference approximation to Newton's second law, describing the classical dynamics of a particle on an inverted potential surface $-V(R)$. Each bead in the RP corresponds to equally spaced imaginary time-steps with a duration of $\beta \hbar$. It then follows that the saddle point is a finite difference approximation to the periodic instanton trajectory. The instanton rate is calculated by computing the normal modes and frequencies of the RP at the saddle point by diagonalizing the Hessian. The next step is to multiply the RP coordinates by complex scaling factors in order to transform the partition function, which is real and infinite, into the $R$ term in Eq. (5.2) which is finite and complex. Finally computing the integrals over the normal modes using steepest descent gives the RP form of the ImF instanton rate. This can be expressed as, 
  
  \begin{equation}
  \textrm{Im} R = \frac{P\sqrt{B_P}}{2}\bigg( \frac{m}{2\pi\beta_P \hbar^2}\bigg)^{p/2} e^{-\beta_P U_P} \prod_{k=0}^{P-1} \int dQ_k e^{\beta_P m \eta_k^2 Q_k^2/2},
@@ -2072,7 +2072,7 @@ The solutions for the free RP corresponds to all normal modes being zero except 
  A_P(\beta) = \frac{1}{\beta_P \hbar} \sqrt{\frac{m\beta_P}{2\pi \beta_P \hbar^2}} \bigg| \prod_{k=0}^{P-1} \hbar \eta_k \beta_P \bigg|^{-1}.
  \end{equation}
  This expression tends to the standard "ImF" form of the instanton rate in the limit $P\to \infty$, where $\beta_P U_P$ is the classical action $ S/\hbar$ along the instanton trajectory.  
- The connection to RPMD rate theory is given by first considering the constrain partition function in terms of the free energy $F$,
+ The connection to RPMD rate theory is given by first considering the constrained partition function in terms of the free energy $F$,
  \begin{equation}
  Z= \int du e^{-\beta F(u)} 
  \end{equation}
@@ -2087,7 +2087,7 @@ The solutions for the free RP corresponds to all normal modes being zero except 
 Z_{\sigma=u}  = \frac{1}{(2\pi \hbar)^P} \int d {\bf{P}}  \int d {\bf{R}} e^{-\beta_P H_P( {\bf{P}}, {\bf{R}})} \delta(\sigma( {\bf{R}})-u)
   \end{equation}    
   
-  where $ \sigma( {\bf{R}})$ is the unstable degree of freedom for which the evolution of the integral over the free energy can be accurately approximated using steepest decent about $u=0$. Integrated over $u$ and making the steepest decent approximation we obtain, 
+  where $ \sigma( {\bf{R}})$ is the unstable degree of freedom for which the evaluation of the integral over the free energy can be accurately approximated using steepest decent about $u=0$. Integrated over $u$ and making the steepest decent approximation we obtain, 
   
 \begin{equation}
  \textrm{Im} R =\sqrt{\frac{\pi}{2\beta |F^{''}(0)|}} \frac{1}{(2\pi \hbar)^P} \int d {\bf{P}}  \int d {\bf{R}} e^{-\beta_P H_P( {\bf{P}}, {\bf{R}})} \delta(\sigma( {\bf{R}})-u).
@@ -2101,9 +2101,9 @@ Z_{\sigma=u}  = \frac{1}{(2\pi \hbar)^P} \int d {\bf{P}}  \int d {\bf{R}} e^{-\b
 In the previous section we discussed RPMD's connection to semiclassical instanton theory. Namely, we saw that the RPMD instanton is 
 a classical path that minimizes the action along the reaction coordinate. This corresponds to a periodic orbit on an inverted potential with period $\beta \hbar$. In order to calculate the RPMD instanton one needs to compute the normal modes at the saddle point by diagonalizing the Hessian of the RP Hamiltonian ~\cite{SCA2009,AFFLECK1981,CALLAN1977,IMFBOOK}. The unstable mode, or the transition state, will correspond to the eigenvector with the negative eigenvalue. The next step is to use a combination of complex scaling, where we multiply the unstable mode by $i=\sqrt{-1}$ for values greater than zero, and steepest decent to evaluate the integrals over all modes ~\cite{AFFLECK1981,CALLAN1977,IMFBOOK}. Doing so will give an expression, which in the limit of a large bead number, gives the "ImF" form of the instanton rate which is exact for a harmonic barrier. 
 
-With our goal being the development of a nonadiabatic rate theory in the MV-RPMD formalism, it is of interest to apply the above technique to MV-RPMD, in order to find the instanton configuration for nonadiabatic systems. This is done by diagonalizing the Hessian of the MV-RPMD Hamiltonian and finding the unstable mode (eigenvector with a negative eigenvalue) along the MV-RPMD potential surface. Following these prescriptive measures, nonadiabatic instanton configurations have been reproduce for a two-state spin-boson model in the weak and strong coupling regime in both nuclear and electronic degrees of freedom ~\cite{SRINANTH18}.Despite this, current optimization algorithms are not generalizable to systems with a large number of states. It is then wise to turn to other methods for calculating high-dimensional nonadiabatic instanton configurations. 
+With our goal being the development of a nonadiabatic rate theory in the MV-RPMD formalism, it is of interest to apply the above technique to MV-RPMD, in order to find the instanton configuration for nonadiabatic systems. This is done by diagonalizing the Hessian of the MV-RPMD Hamiltonian and finding the unstable mode (eigenvector with a negative eigenvalue) along the MV-RPMD potential surface. Following these prescriptive measures, nonadiabatic instanton configurations have been reproduced for a two-state spin-boson model in the weak and strong coupling regime in both nuclear and electronic degrees of freedom ~\cite{SRINANTH18}.Despite this, current optimization algorithms are not generalizable to systems with a large number of states. It is then wise to turn to other methods for calculating high-dimensional nonadiabatic instanton configurations. 
 
-Another method to consider, due to its classical scaling and efficiency in practice, is exact PIMC calculations in MV-RPMD framework. Using PIMC we can calculate average instanton configurations in both nuclear and electronic degrees of freedom. Being that PIMC is an exact quantum statistics method, and the instanton is an imaginary-time periodic path around the reaction barrier, PIMC in the MV-RPMD framework should be able to generate exact instanton configurations.The next section will discuss some preliminary results working toward this goal. 
+Another method to consider, due to its classical scaling and efficiency in practice, is exact PIMC calculations in MV-RPMD framework. Using PIMC we can calculate average instanton configurations in both nuclear and electronic degrees of freedom. Being that PIMC is an exact quantum statistics method, and the instanton is an imaginary-time periodic path around the reaction barrier, PIMC in the MV-RPMD framework should be able to generate exact instanton configurations. The next section will discuss some preliminary results working toward this goal. 
 
 
 \section{Averaging Algorithm}
@@ -2172,13 +2172,13 @@ In order to demonstrate why the minimum value of the averaged instanton configur
 We calculated the average instanton configuration using the QBD corresponding to the MV-RPMD Hamiltonian discussed throughout this study. While the average instanton is in reasonable agreement with the exact calculation reported by Cao and Voth ~\cite{CAO1995}, we find the average minimum value of the instanton path to be slightly greater than the reported figure. We attribute this to an artifact of the our averaging algorithm. Our choice to make the first bead the most positive, while reordering the remaining beads contiguously causes an artificial shift in the beads assigned to the minimum value of instantaneous paths. We see this from analyzing instantaneous instanton trajectories. While the instantaneous instanton paths have the correct minimum value, there is an ambiguity in which beads gets assigned the minimum values such that at any point in the Monte Carlo simulation bead 6-10 can have the minimum value while we'd expect the minimum to be located at bead 8 for a 14-bead calculation. Possible solutions to this issue may include initializing the PIMC simulation such that the RP solvent beads have the correct instanton configuration. Another possible solution is simulated annealing, where we run a PIMC simulation at a significantly higher temperature and initialize subsequent calculations with the converged high temperature RP configuration.
 
 \section{MF-RPMD Rate Theory}
-In the past MF-RPMD has been used to approximate the rate of ET in the condensed phase. It is known that because MF-RPMD approximates nuclear dynamics along a mean potential energy surface, it neglects fluctuation in electronic degrees of freedom. This approximation works well in multi-state system with strong coupling between states. In the MF-RPMD approximation, electronic motion is assumed to be significantly faster than nuclear motion which amounts to nuclear motion moving on an averaged potential surface. In strongly coupled systems this is precisely the case, where electronic transition between states are so rapid nuclear motion is approximately moving on an averaged surface. The MF-RPMD approximation fails when electronic and nuclear motion are on comparable timescales which corresponds to the nonadiabatic regime (weak coupling). This is due to the fact that MF-RPMD does not correctly account for fluctuations in electronic degrees of freedom and subsequently poorly approximates nuclear motion. As a result, MF-RPMD has be widely ignored as a viable method for the simulation nonadiabatic charge and energy transfer processes. 
+In the past MF-RPMD has been used to approximate the rate of ET in the condensed phase. It is known that because MF-RPMD approximates nuclear dynamics along a mean potential energy surface, it neglects fluctuation in electronic degrees of freedom. This approximation works well in multi-state systems with strong coupling between states. In the MF-RPMD approximation, electronic motion is assumed to be significantly faster than nuclear motion which amounts to nuclear motion moving on an averaged potential surface. In strongly coupled systems this is precisely the case, where electronic transition between states are so rapid nuclear motion is approximately moving on an averaged surface. The MF-RPMD approximation fails when electronic and nuclear motion are on comparable timescales which corresponds to the nonadiabatic regime (weak coupling). This is due to the fact that MF-RPMD does not correctly account for fluctuations in electronic degrees of freedom and subsequently poorly approximates nuclear motion. As a result, MF-RPMD has been widely ignored as a viable method for the simulation nonadiabatic charge and energy transfer processes. 
 
 A former member of our group developed two remedies to the inaccuracies in MF-RPMD ~\cite{JD2016}. The first accounts for the fact that in MF-RPMD, the probability of forming "kink" configurations (probabilities of forming electronic transition states) are not correctly accounted for the the MF-RPMD flux-side TCF expression. By correctly accounting for electronic transition state probabilities in MF-RPMD rate calculation, ET rates across a full range of coupling strengths were accurately approximated. While modifying MF-RPMD such that it can reproduce nonadiabatic ET rates is an impressive feat, the probabilities of forming kinks are introduced in a mathematically inconsistent manner. Further, this method failed to capture ET in the inverted regime. 
 
-The second remedy was to introduce a population reaction coordinate, defined as the difference in product and reactant populations. This method resulted in the accurate rate calculation of ET across a full range of coupling strengths and in regimes outside of the normal regime. Despite this feat, MF-RPMD defined in terms of the population coordinate still failed to give quantitative agreement with FGR rate calculations in the inverted regime. A further issue is MF-RPMD's limitation to single particle processes. 
+The second remedy was to introduce a population reaction coordinate, defined as the difference in product and reactant populations. This method resulted in the accurate rate calculation of ET across a full range of coupling strengths and in regimes outside of the normal regime. Despite this feat, MF-RPMD defined in terms of the population coordinate still failed to give quantitative agreement with FGR rate calculations in the inverted regime. 
 
-The following section outlines MV-RPMD rate theory developments which may alleviate some of the inherent issues with MF-RPMD and hopefully will lead to its application of general multi-level/multi-particle nonadiabatic systems in the condensed phase. 
+The following section outlines MV-RPMD rate theory developments which may alleviate some of the inherent issues with MF-RPMD and hopefully will lead to its application to general multi-level/multi-particle nonadiabatic systems in the condensed phase. 
 
  \subsection{MV-RPMD Flux-side TCF: Solvent Reaction coordinate}
 The Bennett-Chandler expression for the rate constant is,
@@ -2231,8 +2231,8 @@ The static, reactant heaviside function (right quantity in Eq. 6.15) defined in 
 \begin{equation}
 h(R^{\dagger} -\bar{R}_0)=\left\{
      \begin{array}{ll}
-     1 & \textrm{if} \quad \bar{R}_0<0 \quad \textrm{products}\\
-     0 &  \textrm{if} \quad  \bar{R}_0>0 \quad \textrm{reactants}
+     1 & \textrm{if} \quad \bar{R}_0<0 \quad \textrm{reactants}\\
+     0 &  \textrm{if} \quad  \bar{R}_0>0 \quad \textrm{products}
     \end{array}\right.
     \label{eq:hs}
 \end{equation}
@@ -2348,7 +2348,7 @@ if we map discrete states to creation and annihilation operators such that $a^{\
 and if we note that $a^{\dagger}_n= \frac{1}{\sqrt{2}}(\hat{x}_n- i\hat{p}_n)$ and $a_m= \frac{1}{\sqrt{2}}(\hat{x}_m+ i\hat{p}_m)$ and if we consider systems where $V_{12}=V_{21}$ we get 8 terms in the flux expression,
 
 \begin{equation}
-\hat{F} = \frac{i}{\hbar}[(\hat{x}_1- i\hat{p}_1)(\hat{x}_2+ i\hat{p}_2)V_{12} - (\hat{x}_2- i\hat{p}_2)(\hat{x}_1+ i\hat{p}_1)V_{12}] 
+\hat{F} = \frac{i}{2\hbar}[(\hat{x}_1- i\hat{p}_1)(\hat{x}_2+ i\hat{p}_2)V_{12} - (\hat{x}_2- i\hat{p}_2)(\hat{x}_1+ i\hat{p}_1)V_{12}] 
 \end{equation}
 
 and expanding we get, 
@@ -2504,10 +2504,9 @@ so finally we have a continuous expression for the flux in terms of conjugate va
 
 \subsection{Summary}
 In this section we discussed limitations of MF-RPMD nonadiabatic rate calculations and why one might be interested in the formulation of an MV-RPMD rate theory. First we noted that rate calculations formulated in terms of solvent polarization COM, in the MF-RPMD formalism, do not work well at capturing nonadiabatic reaction rates. This is because constraining initial electronic population does sufficiently constrain nuclear coordinates and constraining nuclear coordinates do not sufficiently constrain population. This results in the requirement of a double constraint in population and nuclear coordinates, which proves to be numerically demanding in practice. The correction to the rate is therefore introduced by multiplying the estimator for flux-side by the probability of forming RP "kinks" which corresponds to the probability of forming electronic transition states. While this correction to the rate calculation allowed for the use of MF-RPMD to calculate rates across a full range of coupling strengths, it is mathematically inconsistent and fails to capture ET in the inverted regime.
-In an effort to remedy this inconsistency, the population difference coordinate was developed. The population coordinate distinguishes between reactants and products in all regimes of ET and gives the desired turnover for ET in the inverted regime. Still given that this method restricts kink formation outside of the adiabatic crossing, it fails to quantitatively agree with the exact FGR rate calculation
+In an effort to remedy this inconsistency, the population difference coordinate was developed. The population coordinate distinguishes between reactants and products in all regimes of ET and gives the desired turnover for ET in the inverted regime. Still given that this method restricts kink formation outside of the adiabatic crossing, it fails to quantitatively agree with the exact FGR rate calculation.
 
-We then sought to explore different formulations of the flux-side TCFs in the MV-RPMD formalism where "kink" probabilities are accounted for in a mathematically consistent manner. MF-RPMD is still limited to the description of single particle processes. 
-Ideally we would like to be able to capture reaction rates across a full range of coupling strengths, and across all regimes while keeping our methods general for multi-electron systems. Further, if we wish to study the rate of photochemical reactions, MV-RPMD is ideal since it consistently treats discrete system states with continuous conjugate variables.
+We then sought to explore different formulations of the flux-side TCFs in the MV-RPMD formalism where "kink" probabilities are accounted for in a mathematically consistent manner. Ideally we would like to be able to capture reaction rates across a full range of coupling strengths, and across all regimes while keeping our methods general for multi-electron systems. Further, if we wish to study the rate of photochemical reactions, MV-RPMD is ideal since it consistently treats discrete system states with continuous conjugate variables.
 
 Working toward the goal of applying MV-RPMD to a rate calculation, we explore three MV-RPMD rate formulations. The first is the MV-RPMD flux-side TCF defined in terms of a solvent polarization reaction coordinate. The second is the MV-RPMD flux-side TCF defined in terms of a population difference reaction coordinate. Finally, we outline the derivation of the continuous representation of the flux operator (for a two-state system) which can be implemented in a flux-side MV-RPMD TCF calculation. In the future we hope to apply these MV-RPMD rate theories to rate calculations in nonadiabatic condensed phase systems. This will inform the development of an efficient yet general MV-RPMD rate theory that can be applied to multi-state systems across a wide range of coupling strengths and regimes. 
 
@@ -2515,18 +2514,18 @@ Working toward the goal of applying MV-RPMD to a rate calculation, we explore th
 \chapter{Conclusions }
 This dissertation focused on the extension and application of a nonadiabatic version of RPMD (MV-RPMD), which allowed for the accurate and efficient simulation of quantum mechanical reactions in the condensed phase. We started our discussion with a review of imaginary-time path integrals and the classical isomorphism that falls out of the path integral discretization of the QBD. This provides an exact, yet efficient, method for generating quantum statistics for systems in the condensed phase. 
 
-Next we reviewed the real-time extension of the PI formalism, RPMD, which approximate Kubo-transformed thermal correlation functions and gives the exact result as $t\to0$. We then went on to discuss the details of the RPMD approximations, its limitations and motivations for its extension. While RPMD has been successfully applied to a wide range of chemical problem, it's inability to treat features like quantum coherence, multi-quantum particle processes, and multi-state processes necessitates efforts toward its extension. 
+Next we reviewed the real-time extension of the PI formalism, RPMD, which approximates Kubo-transformed thermal correlation functions and gives the exact result as $t\to0$. We then went on to discuss the details of the RPMD approximations, its limitations and motivations for its extension. While RPMD has been successfully applied to a wide range of chemical problem, it's inability to treat features like quantum coherence, multi-quantum particle processes, and multi-state processes necessitates efforts toward its extension. 
 
 
-Our review of nonadiabatic extensions of RPMD motivated our discussion of MV-RPMD. In MV-RPMD we represent discrete system states with continuous variables by mapping to SEO states. We then take the Wigner Transform of the SEO states in order to represent our system with a quasi-probability distribution which allow us to sample continuous conjugate variables that can be integrated in classical EOMs. We also derive an improved QBD in the MV-RPMD framework by employed the symmetric trotter splitting of kinetic and potential energy operators. We demonstrate improved numerical stability in average energy bead convergence of a model ET system. 
+Our review of nonadiabatic extensions of RPMD motivated our discussion of MV-RPMD. In MV-RPMD we represent discrete system states with continuous variables by mapping to SEO states. We then take the Wigner Transform of the SEO states in order to represent our system with a quasi-probability distribution which allow us to sample continuous conjugate variables that can be integrated in classical EOMs. We also derive an improved QBD in the MV-RPMD framework by employing the symmetric Trotter splitting of kinetic and potential energy operators. We demonstrate improved numerical stability in average energy bead convergence of a model ET system. 
 
 
 To motivate our study of PCET using MV-RPMD, we review the model PCET systems that have been reported in the literature. The first was PCET modeled by capped Coulombic wells coupled to a proton double well in the presence of a solvent coordinate. RPMD bead convergence within this model depends on the proton and electron mass, which typically requires 32 beads and 1024 beads for converged dynamics respectively. The shortcoming of this model is its treatment of the electron and proton as unique particles. The next model studied was a proton double well coupled to discrete ET states coupled to a proton double well. Since we are working in the weak coupling (nonadiabatic) regime, the burden of bead convergence is dominated by the light proton mass, which requires 32 beads. In the MV-RPMD representation, the 32 bead requirement proves to be computationally demanding. We then turn to the method of quasi-diabatization in order to represent our PCET system with four discrete electron/proton states. This significantly reduces the number of beads required for convergence in equilibrium and dynamic simulations. We were able to demonstrate that MV-RPMD can be used to accurately distinguish between concerted and sequential PCET processes. 
 
 
-In order to extend our application of MV-RPMD to nonadiabatic rate calculations in the condensed phase, we review two equivalent rate theories, the flux-side thermal correlation function and the Semiclassical "ImF" method. The latter has been shown to be equivalent to RPMD rate calculations in the deep tunneling regime which further shed light on the nature of the RPMD approximation. Knowing that the instanton is the imaginary-time periodic path around a reaction barrier, or the real-time path on an inverted potential barrier, we can use MV-RPMD to calculate the instanton configuration by sampling configurations at the barrier. We calculate the average instanton configuration for a spin-boson model in the weak coupling regime and found it to agree well with exact calculation reported in the literature. 
+In order to extend our application of MV-RPMD to nonadiabatic rate calculations in the condensed phase, we review two equivalent rate theories, the flux-side thermal correlation function and the Semiclassical "ImF" method. The latter has been shown to be equivalent to RPMD rate calculations in the deep tunneling regime (where the barrier can be approximated by a harmonic well) which further shed light on the nature of the RPMD approximation. Knowing that the instanton is the imaginary-time periodic path around a reaction barrier, or the real-time path on an inverted potential barrier, we can use MV-RPMD to calculate instanton configuration by sampling configurations at the barrier. We calculate the average instanton configuration for a spin-boson model in the weak coupling regime and found it to agree well with exact calculations reported in the literature. 
 
-Finally, we reviewed RPMD rate theory and its past applications and motivated its extension. We then formulated two flux-side TCF expressions using the MV-RPMD formalism. The first involved a reaction coordinate defined by the solvent polarization COM where  dynamic trajectories are initialized such that the RP solvent polarization COM is constrained to the barrier. The second involves a population coordinate defined by the difference in the product and reactant population where the propagated product heaviside can either be defined in terms of the Boltzmann or the semiclassical population estimator. Finally we provide the derivation of the flux estimator which we can use within the MV-RPMD formalism to calculate a flux-side TCF. 
+Finally, we reviewed RPMD rate theory, past applications and motivations for its extension. We then formulated two flux-side TCF expressions using the MV-RPMD formalism. The first involved a reaction coordinate defined by the solvent polarization COM where  dynamic trajectories are initialized such that the RP solvent polarization COM is constrained to the barrier. The second involves a population coordinate defined by the difference in the product and reactant population where the propagated product heaviside can either be defined in terms of the Boltzmann or the semiclassical population estimator. Finally we provide the derivation of the flux estimator which we can use within the MV-RPMD formalism to calculate a flux-side TCF. 
 
 
 More recent work in our group has been toward finding the optimal dividing surface on the MV-RPMD effective potential (MV-RPMD instanton) for the calculation of nonadiabatic rates in the condensed phase ~\cite{SRINANTH18}. The development of a robust MV-RPMD rate theory that is applicable across a full range of coupling strengths and across all regimes will further the progress toward simulating and subsequently understanding complex charge and energy processes in the condensed phase. Deeper understanding of these process will inform the rational design of novel materials in renewable energy technologies. 
